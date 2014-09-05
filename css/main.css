@@ -1,0 +1,437 @@
+/*
+	Colors: 
+		Green: #70A12F
+		Darker Green: 
+		Duller Green: #89A273
+		Orange: #F56F1C
+		Egg White: #FFF8E7
+
+
+	Contents
+		1. Normal Tags
+		2. Header and Nav
+		3. Content, Center Content and Wrapper
+		4. Footer
+		5. Carousel and Captions
+		6. Company
+		7. Team
+		8. Galleriffic 
+		9. Testimony
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+	font-size: 1.6em;
+	background-color: #4B6434;
+}
+
+#header {
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #374B29),
+		color-stop(0.5, #4A6636)
+	);
+	
+	background-image: -o-linear-gradient(bottom, #374B29 0%, #4A6636 50%);
+	background-image: -moz-linear-gradient(bottom, #374B29 0%, #4A6636 50%);
+	background-image: -webkit-linear-gradient(bottom, #374B29 0%, #4A6636 50%);
+	background-image: -ms-linear-gradient(bottom, #374B29 0%, #4A6636 50%);
+	background-image: linear-gradient(to bottom, #374B29 0%, #4A6636 50%);
+	
+	padding-top: 12px;
+	padding-bottom: 0px;
+	
+	overflow: visible;
+}
+
+.navbar {
+	background-color: #70A12F;
+	
+	width: 96%;
+	max-width: 898px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	
+	padding-top: 10px;
+	
+	border: 1px solid #F2F2F2;
+	border-bottom: 0px;
+	
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#logo {
+	width: 70%;
+	max-width: 400px;
+}
+
+.navbar-toggle {
+	background-color: white;
+	margin-right: 10px;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+
+@media(max-width:767px){
+	
+	.container-fluid > .navbar-header {
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	.navbar-nav {
+		background-color: white;
+	}
+	
+	.caption {
+		display: none;
+	}
+}
+
+@media(min-width:768px){
+	
+	.navbar-nav {
+		background-color: #70A12F;
+		margin-top: -20px;
+	}
+	
+	#mainmenu a {
+		color: white;
+	}
+	
+	#mainmenu .dropdown-menu a {
+		color: black;
+	}
+	
+	.navbar-nav > li > a {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		
+		margin: .2em;
+		padding: .4em;
+	}
+	
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus {
+	  color: #555;
+	  background-color: #F56F1C;
+	}
+	
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+  	  color: #555;
+  	  background-color: #F56F1C;
+	}
+
+}
+
+#content {
+	background-color: #89A273;
+}
+
+#center_content {
+	height: 100%;
+	width: 96%;
+	max-width: 898px;
+	
+	background-color: #FFF8E7;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding-bottom: 0.7em;
+	
+	border-left: 1px solid #F2F2F2;
+	border-right: 1px solid #F2F2F2;
+	
+	overflow:auto;
+}
+
+#maincontent {
+	margin: 0px;
+	padding: 0px;
+	
+	padding-top: 0.7em;
+	
+	width: 82%;
+	
+	min-height: 200px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	overflow:auto;
+}
+
+#maincontent p {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+#maincontent ul {
+	margin-left: 4em;
+	margin-right: 1.5em;
+	
+	list-style: disc outside;
+}
+
+@media(max-width:767px){
+	
+	#maincontent {
+		width: 98%;
+	}
+	
+	#maincontent p {
+		width: 88%;
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
+
+#copyright {
+	clear:both;
+	text-align: right;
+	padding-top: 10px;
+	margin-right: 10px;
+	font-size: 0.75em;
+	color: white;
+}
+
+#center_footer {
+	background-color: #70A12F;
+	
+	width: 96%;
+	
+	max-width: 898px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 0px;
+	margin-bottom: 9px;
+	
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;	
+}
+
+/* Wrappers */
+
+.wrapper-96 {
+	width: 96%;
+	margin: 0px auto;
+}
+
+.wrapper-90 {
+	width: 90%;
+	margin: 0px auto;
+}
+
+/* Icons */
+
+.icon {
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+.icon-text, 
+.icon-text:hover {
+	font-size: 0.9em;
+	text-decoration: none;
+}
+
+/* Company */
+
+#hzroot1118038 {
+	margin: 10px;
+	margin-right: 0px;
+}
+
+/* Team */
+
+
+.team-image {
+	margin: 5px;
+	border: 1px solid grey;
+}
+
+.teammembers img {
+	display: block;
+	margin: 0px auto;
+	border: 1px solid grey;
+}
+
+.teammembers p {
+	text-align: center;
+}
+
+/* Alternate Gallery */
+
+.min_gallery {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 94%;
+}
+
+.min_gallery img, .min_gallery a {
+	max-width: 100%;
+	margin-bottom: 10px;
+	border: 1px solid grey;
+	text-align: center;
+}
+
+/* Sucess Story */
+
+#sucessstory {
+	width: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ss_row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+	
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.ss_caption {
+	width: 42%;
+	padding: 2%;
+	margin: 2%;
+	border: 1px solid grey;
+	background: white;
+	min-width: 240px;
+}
+
+.ss_img img {
+	width: 250px;
+	border: 1px solid #ccc;
+}
+
+
+/* Testimony */
+
+.testimony {
+	position: relative;
+	
+	background-color: white;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	width: 70%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 45px;
+	
+	border: 1px solid grey;
+
+}
+
+@media(max-width:767px){ 
+	.testimony {
+		width: 96%;
+	}
+}
+
+.bigquote {
+	position: absolute;
+	font-size: 6em;
+}
+
+.bigquote.lead {
+	top: -36px;
+	left: 10px;
+}
+
+.end {
+	right: 10px;
+	bottom: -30px;
+}
+
+/* Services */
+
+.services ul {
+	margin-left: 20px;
+}
+
+/* Partners */
+
+.partner {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	
+	border: 1px solid grey;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	background-color: white;
+	padding: 5px;
+}
+
+.partner img {
+	display: inline-block;
+	border: 1px solid grey;
+	
+	width: 150px;
+}
+
+.partner p {
+	display: inline-block;
+	vertical-align: middle;
+}

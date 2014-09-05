@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.caption {
+	
+	background-color: white; 
+	color: black;
+	
+	padding: 10px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	border: 1px solid #ccc;
+	
+	
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.3);
+}
+
+.caption a, .caption a:visited {
+	color: black;
+}
+
+.caption a:hover {
+	color: #DB5F00;
+}
+
+
+
+.sidecaption {
+}
+
+/* jssor slider direction navigator skin 03 css */
+            /*
+            .dirNavl              (normal)
+            .dirNavr              (normal)
+            .dirNavl:hover        (normal mouseover)
+            .dirNavr:hover        (normal mouseover)
+            .dirNavldn            (mousedown)
+            .dirNavrdn            (mousedown)
+            */
+			
+.dirNavl, .dirNavr, .dirNavldn, .dirNavrdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../assets/morecontrols.png) no-repeat;
+	overflow:hidden;
+}
+.dirNavl { background-position: 0px -124px }
+.dirNavr { background-position: 0px -45px }
+.dirNavl:hover { background-position: 0px -84px }
+.dirNavr:hover { background-position: 0px -5px }
+.dirNavldn { background-position: 0px -84px }
+.dirNavrdn { background-position: 0px -5px }
+
+/* jssor slider navigator skin 03 css */
+            /*
+            .nav div           (normal)
+            .nav div:hover     (normal mouseover)
+            .nav .av           (active)
+            .nav .av:hover     (active mouseover)
+            .nav .dn           (mousedown)
+            */
+.nav div, .nav div:hover, .nav .av
+{
+	background: url(../assets/morecontrols.png) no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+	width: 11px;
+	height: 11px;
+}
+.nav div { background-position: -11px -193px; }
+.nav div:hover, .nav .av:hover { background-position: -11px -168px; }
+.nav .av { background-position: -11px -168px; }
+.nav .dn, .nav .dn:hover { background-position: -11px -168px; }
+
+/* jssor slider thumbnail navigator skin 05 css */
+                /*
+                .thumbnailnav .p           (normal)
+                .thumbnailnav .p:hover     (normal mouseover)
+                .thumbnailnav .pav           (active)
+                .thumbnailnav .pav:hover     (active mouseover)
+                .thumbnailnav .pdn           (mousedown)
+                */
+.thumbnailnav .f
+{
+	clip: rect(8px 63px 63px 8px);
+}
+
+.thumbnailnav .i
+{
+	position: absolute;
+	background: #000;
+	filter: alpha(opacity=30);
+	opacity: .3;
+	width: 72px;
+	height: 72px;
+	top: 0;
+	left: 0;
+                    
+	transition: background-color .6s;
+	-moz-transition: background-color .6s;
+	-webkit-transition: background-color .6s;
+	-o-transition: background-color .6s;
+}
+
+.thumbnailnav .pav .i
+{
+	background: #fff;
+	filter: alpha(opacity=80);
+	opacity: .8;
+}
+
+.thumbnailnav .pdn .i { background: none; }
+                
+.thumbnailnav .p:hover .i, .thumbnailnav .pav:hover .i
+{
+	background: #fff;
+	filter: alpha(opacity=30);
+	opacity: .3;
+}
+
+.thumbnailnav .p:hover .i
+{
+	transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+}
