@@ -29,6 +29,7 @@
 								
 				  				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Work<span class="caret"></span></a>
 				                	<ul class="dropdown-menu" role="menu">
+										<li> <a href="recentwork.php"> Recent Work </a></li>
 				                      	<li> <a href="chestnuthilltwin.php"> Chestnut Hill Twin </a> </li>
 				                      	<li> <a href="germantowntwin.php"> Germantown Victorian Twin </a> </li>
 				     				   	<li> <a href="jenkintownsplit.php"> Jenkintown Split Level </a> </li>

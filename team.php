@@ -25,23 +25,32 @@
 				<div class="container-fluid">
 					<div class="row teammembers">
 						<div class="col-sm-4 col-xs-12">
-							<img src="img/people/ian.jpg" alt="Ian Zolitor" /><p>Ian Zolitor</p>
-						</div>
-		        		<div class="col-sm-4 col-xs-12">
-							<img src="img/people/dave.jpg" alt="David Schectman" /><p>David Shechtman</p>
+							<img src="img/people/karen.jpg" alt="Karen Kuech" /><p>Karen Kuech</p>
 						</div>
 						<div class="col-sm-4 col-xs-12">
 							<img src="img/people/penka.jpg" alt="Penka Slavova" /><p>Penka Slavova</p> 
 						</div>
+						<div class="col-sm-4 col-xs-12">
+							<img src="img/people/ian.jpg" alt="Ian Zolitor" /><p>Ian Zolitor</p>
+						</div>
 					</div>
 					<div class="row teammembers">
+		        		<div class="col-sm-4 col-xs-12">
+							<img src="img/people/dave.jpg" alt="David Schectman" /><p>David Shechtman</p>
+						</div>
 						<div class="col-sm-4 col-xs-12">
 							<img src="img/people/christine.jpg" alt="Christine Ferraro" /><p>Christine Ferraro</p>
 						</div>
 						<div class="col-sm-4 col-xs-12">
 							<img src="img/people/tyler.jpg" alt="Tyler Calvitti" /><p>Tyler Calvitti</p> 
 						</div>
+
 					</div>	
+
+					<div class="row teammembers">
+						<h3> Some InsideOut team members at a party we decorated, staged and served recently <h3>
+						<img align="middle" src="img/people/wholeteam.jpg" alt="Whole Team" />
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,4 +1,4 @@
-<script src="js/vendor/lightbox-2.6.min.js"></script>
+
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 	
